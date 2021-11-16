@@ -3,6 +3,5 @@ numpy
 scipy
 matplotlib
 pandas
-os
-# sys
+# os
 
