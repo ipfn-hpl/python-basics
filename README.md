@@ -1,7 +1,10 @@
-# python-basics
+# Python-basics
 Python files for Python introductory Course
 
-### Required step before running examples
+## Run thin on Binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ipfn-hpl/python-basics/HEAD)
+
+### Required step before using ISTTOK data running:
 
 #### Install SDAS
 
