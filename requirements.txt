@@ -1,0 +1,6 @@
+## Required packages in  for listed examples
+numpy
+scipy
+matplotlib
+sys
+
