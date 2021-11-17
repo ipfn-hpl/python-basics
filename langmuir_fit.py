@@ -1,16 +1,17 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-import os
+#import os
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.optimize import curve_fit
 
 # Import data from csv using pandas and convert to numpy array
-directory = os.path.dirname(__file__)
+# directory = os.path.dirname(__file__)
 filename = 'langmuir_Ne_80v_3mbar.csv'
-data = pd.read_csv(os.path.join(directory, filename), encoding='ISO-8859–1')
+# data = pd.read_csv(os.path.join(directory, filename), encoding='ISO-8859–1')
+data = pd.read_csv(filename, encoding='ISO-8859–1')
 
 voltage = data['Voltage [V]'].values
 current = data['Current [?A]'].values
